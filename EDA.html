@@ -7805,445 +7805,9 @@ a.anchor-link {
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=66889902">
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=a3aa7552">
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Requirement already satisfied: plotly in /home/vitaliy/miniforge3/lib/python3.13/site-packages (6.7.0)
-Requirement already satisfied: narwhals&gt;=1.15.1 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from plotly) (2.20.0)
-Requirement already satisfied: packaging in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from plotly) (26.0)
-Requirement already satisfied: statsmodels in /home/vitaliy/miniforge3/lib/python3.13/site-packages (0.14.6)
-Requirement already satisfied: numpy&lt;3,&gt;=1.22.3 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from statsmodels) (2.4.4)
-Requirement already satisfied: scipy!=1.9.2,&gt;=1.8 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from statsmodels) (1.17.1)
-Requirement already satisfied: pandas!=2.1.0,&gt;=1.4 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from statsmodels) (3.0.2)
-Requirement already satisfied: patsy&gt;=0.5.6 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from statsmodels) (1.0.2)
-Requirement already satisfied: packaging&gt;=21.3 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from statsmodels) (26.0)
-Requirement already satisfied: python-dateutil&gt;=2.8.2 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from pandas!=2.1.0,&gt;=1.4-&gt;statsmodels) (2.9.0.post0)
-Requirement already satisfied: six&gt;=1.5 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas!=2.1.0,&gt;=1.4-&gt;statsmodels) (1.17.0)
-Requirement already satisfied: nbformat in /home/vitaliy/miniforge3/lib/python3.13/site-packages (5.10.4)
-Requirement already satisfied: fastjsonschema&gt;=2.15 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from nbformat) (2.21.2)
-Requirement already satisfied: jsonschema&gt;=2.6 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from nbformat) (4.26.0)
-Requirement already satisfied: jupyter-core!=5.0.*,&gt;=4.12 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from nbformat) (5.9.1)
-Requirement already satisfied: traitlets&gt;=5.1 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from nbformat) (5.14.3)
-Requirement already satisfied: attrs&gt;=22.2.0 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from jsonschema&gt;=2.6-&gt;nbformat) (26.1.0)
-Requirement already satisfied: jsonschema-specifications&gt;=2023.03.6 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from jsonschema&gt;=2.6-&gt;nbformat) (2025.9.1)
-Requirement already satisfied: referencing&gt;=0.28.4 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from jsonschema&gt;=2.6-&gt;nbformat) (0.37.0)
-Requirement already satisfied: rpds-py&gt;=0.25.0 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from jsonschema&gt;=2.6-&gt;nbformat) (0.30.0)
-Requirement already satisfied: platformdirs&gt;=2.5 in /home/vitaliy/miniforge3/lib/python3.13/site-packages (from jupyter-core!=5.0.*,&gt;=4.12-&gt;nbformat) (4.9.4)
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=7340ae9c">
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Unnamed: 0</th>
-<th>ID  объявления</th>
-<th>Количество комнат</th>
-<th>Тип</th>
-<th>Метро</th>
-<th>Адрес</th>
-<th>Площадь, м2</th>
-<th>Дом</th>
-<th>Парковка</th>
-<th>Цена</th>
-<th>Телефоны</th>
-<th>Описание</th>
-<th>Ремонт</th>
-<th>Площадь комнат, м2</th>
-<th>Балкон</th>
-<th>Окна</th>
-<th>Санузел</th>
-<th>Можно с детьми/животными</th>
-<th>Дополнительно</th>
-<th>Название ЖК</th>
-<th>Серия дома</th>
-<th>Высота потолков, м</th>
-<th>Лифт</th>
-<th>Мусоропровод</th>
-<th>Ссылка на объявление</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>0</td>
-<td>271271157</td>
-<td>4</td>
-<td>Квартира</td>
-<td>м. Смоленская (9 мин пешком)</td>
-<td>Москва, улица Новый Арбат, 27</td>
-<td>200.0/20.0</td>
-<td>5/16, Монолитный</td>
-<td>подземная</td>
-<td>500000.0 руб./ За месяц, Залог - 500000 руб., ...</td>
-<td>+79166369231</td>
-<td>Без комиссии для нанимателя! Бонус коллегам 12...</td>
-<td>Дизайнерский</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>Можно с детьми, Можно с животными</td>
-<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
-<td>Новый Арбат, 2010</td>
-<td>NaN</td>
-<td>3.00</td>
-<td>Пасс (4), Груз (1)</td>
-<td>Да</td>
-<td>https://www.cian.ru/rent/flat/271271157</td>
-</tr>
-<tr>
-<th>1</th>
-<td>1</td>
-<td>271634126</td>
-<td>4</td>
-<td>Квартира</td>
-<td>м. Смоленская (8 мин пешком)</td>
-<td>Москва, улица Новый Арбат, 27</td>
-<td>198.0/95.0/18.0</td>
-<td>5/16, Монолитно-кирпичный</td>
-<td>подземная</td>
-<td>500000.0 руб./ За месяц, Залог - 500000 руб., ...</td>
-<td>+79850608590</td>
-<td>Лот 93107. Елена Анисимова.\n\nБонус агенту 50...</td>
-<td>Дизайнерский</td>
-<td>25 25 20 25</td>
-<td>NaN</td>
-<td>На улицу и двор</td>
-<td>Совмещенный (2), Раздельный (1)</td>
-<td>Можно с детьми</td>
-<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
-<td>Новый Арбат</td>
-<td>NaN</td>
-<td>3.50</td>
-<td>Пасс (1), Груз (1)</td>
-<td>Нет</td>
-<td>https://www.cian.ru/rent/flat/271634126</td>
-</tr>
-<tr>
-<th>2</th>
-<td>2</td>
-<td>271173086</td>
-<td>4, Оба варианта</td>
-<td>Квартира</td>
-<td>м. Смоленская (7 мин пешком)</td>
-<td>Москва, улица Новый Арбат, 27</td>
-<td>200.0/116.0/4.0</td>
-<td>5/16</td>
-<td>подземная</td>
-<td>500000.0 руб./ За месяц, Залог - 500000 руб., ...</td>
-<td>+79672086536, +79099269384</td>
-<td>ID 36380:  Шикарная 4-х км. квартира в ЖК "Нов...</td>
-<td>Евроремонт</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>На улицу и двор</td>
-<td>Совмещенный (3)</td>
-<td>Можно с детьми</td>
-<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
-<td>Новый Арбат</td>
-<td>NaN</td>
-<td>3.20</td>
-<td>Пасс (1)</td>
-<td>NaN</td>
-<td>https://www.cian.ru/rent/flat/271173086</td>
-</tr>
-<tr>
-<th>3</th>
-<td>3</td>
-<td>272197456</td>
-<td>4, Оба варианта</td>
-<td>Квартира</td>
-<td>м. Смоленская (3 мин пешком)</td>
-<td>Москва, переулок Плотников, 21С1</td>
-<td>170.0/95.0/17.0</td>
-<td>5/6</td>
-<td>подземная</td>
-<td>400000.0 руб./ За месяц, Залог - 400000 руб., ...</td>
-<td>+79660342340, +79099269384</td>
-<td>ID 31618:  Эксклюзивное предложение. Современн...</td>
-<td>Евроремонт</td>
-<td>14-42-20-19</td>
-<td>NaN</td>
-<td>На улицу и двор</td>
-<td>Совмещенный (3)</td>
-<td>Можно с животными</td>
-<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>3.20</td>
-<td>Пасс (1)</td>
-<td>NaN</td>
-<td>https://www.cian.ru/rent/flat/272197456</td>
-</tr>
-<tr>
-<th>4</th>
-<td>4</td>
-<td>273614615</td>
-<td>2</td>
-<td>Квартира</td>
-<td>м. Арбатская (7 мин пешком)</td>
-<td>Москва, улица Новый Арбат, 15</td>
-<td>58.0/38.0/5.0</td>
-<td>12/26, Панельный</td>
-<td>NaN</td>
-<td>225000.0 руб./ За месяц, Залог - 225000 руб., ...</td>
-<td>+79852432860</td>
-<td>Лот 111542. Татьяна Лучкина.\n\nБонус агенту 5...</td>
-<td>Евроремонт</td>
-<td>20 18</td>
-<td>NaN</td>
-<td>На улицу и двор</td>
-<td>Совмещенный (2)</td>
-<td>NaN</td>
-<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
-<td>The Book</td>
-<td>NaN</td>
-<td>3.90</td>
-<td>Пасс (1), Груз (1)</td>
-<td>Да</td>
-<td>https://www.cian.ru/rent/flat/273614615</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>23363</th>
-<td>23363</td>
-<td>215565511</td>
-<td>NaN</td>
-<td>Квартира</td>
-<td>м. Говорово (8 мин пешком)</td>
-<td>Москва, Боровское шоссе, 2к7, ш. Боровское (3 ...</td>
-<td>35.0/16.4/8.0</td>
-<td>10/14</td>
-<td>NaN</td>
-<td>42000.0 руб./ За месяц, Залог - 42000 руб., Ко...</td>
-<td>+79154383401</td>
-<td>Сдаётся светлая теплая квартира (студия) с бал...</td>
-<td>Евроремонт</td>
-<td>NaN</td>
-<td>Балкон (1)</td>
-<td>NaN</td>
-<td>Совмещенный (1)</td>
-<td>NaN</td>
-<td>Мебель в комнатах, Мебель на кухне, Ванна, Сти...</td>
-<td>Мещерский лес</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>Пасс (1), Груз (1)</td>
-<td>NaN</td>
-<td>https://www.cian.ru/rent/flat/215565511</td>
-</tr>
-<tr>
-<th>23364</th>
-<td>23364</td>
-<td>274654844</td>
-<td>1</td>
-<td>Квартира</td>
-<td>м. Солнцево (7 мин пешком)</td>
-<td>Москва, Производственная улица, 8к1, ш. Боровс...</td>
-<td>38.7/16.5/11.0</td>
-<td>5/18, Монолитный</td>
-<td>NaN</td>
-<td>45000.0 руб./ За месяц, Залог - 45000 руб., Ко...</td>
-<td>+79151173402</td>
-<td>Сдам однокомнатную квартиру на длительный срок...</td>
-<td>Евроремонт</td>
-<td>NaN</td>
-<td>Лоджия (1)</td>
-<td>Во двор</td>
-<td>Совмещенный (1)</td>
-<td>NaN</td>
-<td>Мебель в комнатах, Мебель на кухне, Ванна, Сти...</td>
-<td>Лучи</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>Пасс (1), Груз (1)</td>
-<td>NaN</td>
-<td>https://www.cian.ru/rent/flat/274654844</td>
-</tr>
-<tr>
-<th>23365</th>
-<td>23365</td>
-<td>268679909</td>
-<td>2, Оба варианта</td>
-<td>Квартира</td>
-<td>м. Солнцево (6 мин пешком)</td>
-<td>Москва, Боровский проезд, 11</td>
-<td>43.1</td>
-<td>5/5, Кирпичный</td>
-<td>NaN</td>
-<td>50000.0 руб./ За месяц, Залог - 50000 руб., Ко...</td>
-<td>+79653825192</td>
-<td>Рассматриваются квартиранты только славяне и т...</td>
-<td>Дизайнерский</td>
-<td>NaN</td>
-<td>Балкон (1)</td>
-<td>На улицу и двор</td>
-<td>Совмещенный (1)</td>
-<td>Можно с детьми</td>
-<td>Мебель на кухне, Душевая кабина, Стиральная ма...</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>https://www.cian.ru/rent/flat/268679909</td>
-</tr>
-<tr>
-<th>23366</th>
-<td>23366</td>
-<td>274807525</td>
-<td>2</td>
-<td>Квартира</td>
-<td>м. Солнцево (11 мин пешком)</td>
-<td>Москва, улица Богданова, 6к1, ш. Боровское (3 ...</td>
-<td>52.5/10.0</td>
-<td>8/23, Монолитный</td>
-<td>наземная</td>
-<td>55000.0 руб./ За месяц, Залог - 50000 руб., Ко...</td>
-<td>+79660611965</td>
-<td>Двухкомнатная уютная квартира с видом во внутр...</td>
-<td>Евроремонт</td>
-<td>NaN</td>
-<td>Лоджия (1)</td>
-<td>Во двор</td>
-<td>Совмещенный (1), Раздельный (1)</td>
-<td>NaN</td>
-<td>Мебель в комнатах, Мебель на кухне, Ванна, Сти...</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>2.65</td>
-<td>Пасс (3)</td>
-<td>Да</td>
-<td>https://www.cian.ru/rent/flat/274807525</td>
-</tr>
-<tr>
-<th>23367</th>
-<td>23367</td>
-<td>274672243</td>
-<td>2, Оба варианта</td>
-<td>Квартира</td>
-<td>м. Говорово (10 мин пешком)</td>
-<td>Москва, улица Богданова, 2к1, ш. Боровское (3 ...</td>
-<td>90.0/48.2/15.5</td>
-<td>6/23, Панельный</td>
-<td>NaN</td>
-<td>57000.0 руб./ За месяц, Залог - 60000 руб., Ко...</td>
-<td>+79623641533</td>
-<td>Сдается просторная двухкомнатная квартира ВПЕР...</td>
-<td>Косметический</td>
-<td>26,2+15,5-22,0</td>
-<td>Лоджия (1)</td>
-<td>Во двор</td>
-<td>Раздельный (1)</td>
-<td>Можно с детьми, Можно с животными</td>
-<td>Мебель в комнатах, Мебель на кухне, Ванна, Сти...</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>Пасс (3)</td>
-<td>Да</td>
-<td>https://www.cian.ru/rent/flat/274672243</td>
-</tr>
-</tbody>
-</table>
-<p>23368 rows × 25 columns</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=86b0f580">
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>Index(['Unnamed: 0', 'ID  объявления', 'Количество комнат', 'Тип', 'Метро',
-       'Адрес', 'Площадь, м2', 'Дом', 'Парковка', 'Цена', 'Телефоны',
-       'Описание', 'Ремонт', 'Площадь комнат, м2', 'Балкон', 'Окна', 'Санузел',
-       'Можно с детьми/животными', 'Дополнительно', 'Название ЖК',
-       'Серия дома', 'Высота потолков, м', 'Лифт', 'Мусоропровод',
-       'Ссылка на объявление'],
-      dtype='str')</pre>
-</div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=a3aa7552">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=7340ae9c">
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=5186ec76">
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=2e9ad58e">
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>Index(['Unnamed: 0', 'ID_announcement', 'room_quantity', 'type', 'subway',
-       'adress', 'square_meter', 'house_number', 'parking_place',
-       'price_per_month', 'phone_number', 'description', 'recondition',
-       'm2_room', 'balcony', 'windows', 'bathroom', 'children_pets_allowed',
-       'extra', 'residential complex', 'serial_house', 'height', 'lift',
-       'garbage_chute', 'link'],
-      dtype='str')</pre>
-</div>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=7756b45d">
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -9082,221 +8646,8 @@ Name: height, Length: 23368, dtype: float64</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=fe871806">
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Unnamed: 0</th>
-<th>ID_announcement</th>
-<th>room_quantity</th>
-<th>type</th>
-<th>subway</th>
-<th>adress</th>
-<th>square_meter</th>
-<th>house_number</th>
-<th>parking_place</th>
-<th>price_per_month</th>
-<th>phone_number</th>
-<th>description</th>
-<th>recondition</th>
-<th>m2_room</th>
-<th>balcony</th>
-<th>windows</th>
-<th>bathroom</th>
-<th>children_pets_allowed</th>
-<th>extra</th>
-<th>residential complex</th>
-<th>serial_house</th>
-<th>height</th>
-<th>lift</th>
-<th>garbage_chute</th>
-<th>link</th>
-<th>room_layout</th>
-<th>room_count</th>
-<th>number_of_floors</th>
-<th>type_of_house</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>0</td>
-<td>271271157</td>
-<td>4</td>
-<td>Квартира</td>
-<td>м. Смоленская (9 мин пешком)</td>
-<td>Москва, улица Новый Арбат, 27</td>
-<td>200.0</td>
-<td>5/16, Монолитный</td>
-<td>подземная</td>
-<td>500000.0 руб./ За месяц, Залог - 500000 руб., ...</td>
-<td>+7(916)636-92-31</td>
-<td>Без комиссии для нанимателя! Бонус коллегам 12...</td>
-<td>Дизайнерский</td>
-<td>не указано</td>
-<td>не указано</td>
-<td>не указано</td>
-<td>не указано</td>
-<td>Можно с детьми, Можно с животными</td>
-<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
-<td>Новый Арбат, 2010</td>
-<td>не указано</td>
-<td>3.0</td>
-<td>Пасс (4), Груз (1)</td>
-<td>Да</td>
-<td>https://www.cian.ru/rent/flat/271271157</td>
-<td></td>
-<td>4</td>
-<td>5/16</td>
-<td>Монолитный</td>
-</tr>
-<tr>
-<th>1</th>
-<td>1</td>
-<td>271634126</td>
-<td>4</td>
-<td>Квартира</td>
-<td>м. Смоленская (8 мин пешком)</td>
-<td>Москва, улица Новый Арбат, 27</td>
-<td>198.0</td>
-<td>5/16, Монолитно-кирпичный</td>
-<td>подземная</td>
-<td>500000.0 руб./ За месяц, Залог - 500000 руб., ...</td>
-<td>+7(985)060-85-90</td>
-<td>Лот 93107. Елена Анисимова.\n\nБонус агенту 50...</td>
-<td>Дизайнерский</td>
-<td>25 25 20 25</td>
-<td>не указано</td>
-<td>На улицу и двор</td>
-<td>Совмещенный (2), Раздельный (1)</td>
-<td>Можно с детьми</td>
-<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
-<td>Новый Арбат</td>
-<td>не указано</td>
-<td>3.5</td>
-<td>Пасс (1), Груз (1)</td>
-<td>Нет</td>
-<td>https://www.cian.ru/rent/flat/271634126</td>
-<td></td>
-<td>4</td>
-<td>5/16</td>
-<td>Монолитно-кирпичный</td>
-</tr>
-<tr>
-<th>2</th>
-<td>2</td>
-<td>271173086</td>
-<td>4, Оба варианта</td>
-<td>Квартира</td>
-<td>м. Смоленская (7 мин пешком)</td>
-<td>Москва, улица Новый Арбат, 27</td>
-<td>200.0</td>
-<td>5/16</td>
-<td>подземная</td>
-<td>500000.0 руб./ За месяц, Залог - 500000 руб., ...</td>
-<td>+7(967)208-65-36,+7(909)926-93-84</td>
-<td>ID 36380:  Шикарная 4-х км. квартира в ЖК "Нов...</td>
-<td>Евроремонт</td>
-<td>не указано</td>
-<td>не указано</td>
-<td>На улицу и двор</td>
-<td>Совмещенный (3)</td>
-<td>Можно с детьми</td>
-<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
-<td>Новый Арбат</td>
-<td>не указано</td>
-<td>3.2</td>
-<td>Пасс (1)</td>
-<td>не указано</td>
-<td>https://www.cian.ru/rent/flat/271173086</td>
-<td>Обаварианта</td>
-<td>4</td>
-<td>5/16</td>
-<td>не указано</td>
-</tr>
-<tr>
-<th>3</th>
-<td>3</td>
-<td>272197456</td>
-<td>4, Оба варианта</td>
-<td>Квартира</td>
-<td>м. Смоленская (3 мин пешком)</td>
-<td>Москва, переулок Плотников, 21С1</td>
-<td>170.0</td>
-<td>5/6</td>
-<td>подземная</td>
-<td>400000.0 руб./ За месяц, Залог - 400000 руб., ...</td>
-<td>+7(966)034-23-40,+7(909)926-93-84</td>
-<td>ID 31618:  Эксклюзивное предложение. Современн...</td>
-<td>Евроремонт</td>
-<td>14-42-20-19</td>
-<td>не указано</td>
-<td>На улицу и двор</td>
-<td>Совмещенный (3)</td>
-<td>Можно с животными</td>
-<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
-<td>не указано</td>
-<td>не указано</td>
-<td>3.2</td>
-<td>Пасс (1)</td>
-<td>не указано</td>
-<td>https://www.cian.ru/rent/flat/272197456</td>
-<td>Обаварианта</td>
-<td>4</td>
-<td>5/6</td>
-<td>не указано</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=7b3fb560">
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>0        3.00
-1        3.50
-2        3.20
-3        3.20
-4        3.90
-         ... 
-23363    2.64
-23364    2.64
-23365    2.64
-23366    2.65
-23367    2.64
-Name: height, Length: 23368, dtype: float64</pre>
-</div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=fe871806">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=7b3fb560">
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=0109052e">
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=21277cb0">
 <div class="jp-Cell-outputWrapper">
@@ -9674,6 +9025,16 @@ Name: height, Length: 23368, dtype: float64</pre>
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bbd60ca2">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Сравнение медианной стоимости аренды в зависимости от типа парковки и качества ремонта.</p>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=8f85c114">
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -9718,6 +9079,16 @@ Passing `palette` without assigning `hue` is deprecated and will be removed in v
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=13ebba50">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Распределение обьявлений по количеству комнат и типам планировки (изолированная/ смежная)</p>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=a7da6c16">
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -9742,6 +9113,16 @@ Passing `palette` without assigning `hue` is deprecated and will be removed in v
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e2a196f1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Анализ стоимости жильяя в зависимости от разрешения на проживание с детьми или животными</p>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=79cd9aa1">
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -9761,6 +9142,16 @@ The `join` parameter is deprecated and will be removed in v0.15.0. You can remov
 <div class="jp-RenderedImage jp-OutputArea-output" tabindex="0">
 <img alt="No description has been provided for this image" class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABBQAAAIsCAYAAABC5vpmAAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjEwLjgsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvwVt1zgAAAAlwSFlzAAAPYQAAD2EBqD+naQAAji5JREFUeJzs3Xt8z/X///H7G9scN1s5H7fJWtkY5bicz8Q3HTZKZKFyPhQJqY8oOQ7FZkoSkkoyrFCipfqYUCI2GkLMTrbZzPv3h99en729N/bee2zjdr1cdrG9Xo/X8/V8v73ep/v7+Xq+TGaz2SwAAAAAAAAblCjsDgAAAAAAgOKHQAEAAAAAANiMQAEAAAAAANiMQAEAAAAAANiMQAEAAAAAANiMQAEAAAAAANiMQAEAAAAAANiMQAEAAAAAANiMQAEAAAAAANiMQAEAAAAoQjZs2KCTJ08af3/++ec6e/ZsIfYIAHJWqrA7AODO9Pfff2vZsmXavXu3zp07JwcHB9WvX1/dunVTQECASpcuXdhdBACgSPrvf/+r7du36+WXX1ZMTIzefPNNRUREFHa3AMCKyWw2mwu7EwDuLN99951GjRolR0dH9e7dW/Xr11dGRob++9//KiIiQo899pj+85//FHY3AQAoko4dO6Znn31W58+flyQ999xzmjhxYiH3CgCsESgAKFCxsbHq1auXqlatqhUrVqhy5coW60+cOKHvvvtOAwYMKKQeAgBQ9KWkpOivv/6Sq6urateuXdjdAYAcMYcCgAK1bNkypaSk6K233rIKEySpTp06FmGCl5eX3nzzTX311Vfq0qWLfHx81KdPH/3yyy9W2549e1avvvqqWrZsqQYNGqhHjx767LPPcuzHwoUL5eXlZfXTv39/i7r+/furZ8+eVtuHhYXJy8vL4hzWK1eu6L333lOXLl3UoEEDi3YPHDhgc11OJk6cKD8/P6vlW7ZskZeXl/bs2WOxPD09XcHBwerUqZMaNGigNm3aaNasWUpPT7eoy7qfrzd06FC1b9/e6rYHBgaqWbNm8vX1VZ8+fbRly5Yb9jtL//79LW5vs2bNNGTIEB05cuSm206dOlWdO3dWw4YN1bRpUz377LP69ddfLWq+/fZbDRkyRP7+/mrQoIE6duyoxYsXKzMzM1/98PLy0sKFCy2WLVu2LMdj5fLly1q4cKFxnPr7+2v48OH6+++/JUknT56Ul5eXPv/8c4vt3njjDXl5eVl8u/j555/Ly8tLDRo0UFxcnEV9VFRUrsfL5s2b1adPH/n6+qpZs2YaP358judVHzt2TKNGjVLz5s3l6+urLl26aN68eZJyf2xk/8k6zvr37291P+zfv9+oy4ub9XnixIk37U/2x+H1sh4zsbGxCgoKUqNGjeTv769Fixbp+u9M8nJsX7x4Uc8//7xat26tBg0ayN/fX+PGjdOpU6eMmqz/67CwMH344Ydq166dfH199cwzz+R4rB87dkwjR45U06ZNjee4bdu2WdRkHRPZ/8/j4uJyPEb79u2rPn36WCwr6OcCW45nSfrjjz8UFBSk5s2bW/zfDR061Gpf2WW/L6/Xs2dPi+MvPT1dCxYsUJ8+fdSkSRM1atRI/fr1008//XTDfeS0v7wcZ4mJiXrrrbfUpk0bNWjQQJ06dVJISIiuXr1607ayfrLfTzdrL3ubn3/+ucqWLauGDRuqdu3aud7vud2+vP6/Xe/3339Xo0aNrI6R9u3bW2yblpamJ554Qt27d1diYqLN+8463rN+GjZsqEcffVTr1q2z6lNkZKT69eunRo0a6aGHHtKLL76oY8eOGettfU7L62t++/btb3j87tmzx6LtY8eOydfXV6+88opF3a+//ipvb2+9++67ubYFFGfMoQCgQO3YsUO1atVS48aN87zNL7/8ovDwcPXv31+Ojo5avXq1nn/+ea1bt07169eXJJ0/f15PPfWUTCaTnn76abm5uWnnzp167bXXlJycrIEDB+bY9rRp01S2bFlJ0ty5c+26bcuXL9eCBQvUqVMnPf/883J0dNR///tfrV27Nl919rp69apefPFF/fe//9VTTz0lT09PHTlyRCtWrNDx48f13nvv5avdjz76SO3bt9ejjz6qjIwMbdq0SaNGjdLSpUvVtm3bm27v4eGhF154QWazWbGxsfrggw80ZMgQfffddzfcLiMjQ7169VKVKlWUkJCgtWvX6vnnn1d4eLiqV68uSfriiy9UtmxZPffccypbtqx++uknBQcHKzk5WRMmTLC7H4mJiQoJCbFanpmZqaFDhyoyMlI9evTQs88+q0uXLmn37t06cuRIrt8enjhxIsc3yFlKlCihr776yuL4/fzzz+Xk5KTLly9b1H7++ed69dVX5ePjo7Fjx+rChQv66KOPtHfvXn355ZdydnaWJP355596+umnVapUKQUEBKhGjRr6+++/tX37do0ZM0adOnWy6O/MmTPl6empp556yljm6emZa59nz56d67rr5aXPAQEBatGihbHNK6+8ok6dOqlTp07GMjc3txvuJzMzU88//7waNmyol19+WT/88IMWLlyozMxMjRo1yqjLy7GdkZGhcuXK6dlnn1XFihUVGxurlStX6siRI9q4caPFfr/88ktdunRJ/fr10+XLl7Vy5UoNGDBAGzdu1L333itJ+uuvv9S3b19VqVJFgwcPVtmyZbV582YNGzZMCxcutLid+XWrnguul9vxnJSUpMGDB8tsNuu5555T1apVJV07tgpScnKy1q1bp549e+rJJ5/UpUuX9NlnnxmvF97e3nluq2fPnmrdurUkaefOnfr6668t1qempuqZZ57R2bNnFRgYqGrVqikqKkpz587Vv//+q9dee01ubm6aNWuWsc0333yjb775xmJZ1mMtL+3l5mbPIzdjy/YPPvigZs+erREjRsjDw0PPPPOMVY3ZbNYrr7yikydPat26dcZzT372/eqrr8rV1VXJyclav369Jk+erBo1aqhly5aSpB9//FGDBw9WzZo1NXz4cKWlpenjjz9W37599fnnn6tmzZp2P6cVFE9PT40aNUqzZs1Sly5d1KFDB6WkpOjVV1+Vh4eHxXMRcCchUABQYJKTk3X27Fl16NDBpu2OHDmi9evXq0GDBpKkHj16qGvXrgoODtaiRYskSfPmzVNmZqY2btwoV1dXSde+pRs7dqwWLVqkwMBAi4ker1y5Iknq2rWrUR8aGmrX7du+fbs8PT21cOFCmUwmSdc+yFwfFOS1zl4bN27Ujz/+qJUrV+qhhx4ylt933316/fXXtXfvXpuCnSxbt261uC+ffvpp9enTRx988EGeAoV7771XvXv3Nv6+cuWKlixZori4uBt+MLz+w0fTpk315JNP6sCBA0agMGfOHIu+9e3bV1OnTtXq1as1ZswYOTo62tWPpUuXqlSpUnrwwQctln/55ZeKjIzUq6++avHhf8iQIVbfgmc3b948ubu7KykpKcf1nTp10vr16402U1NTFR4erk6dOll8wMnIyNDs2bNVv359rVq1Sk5OTpKkJk2aaOjQofrwww81cuRISdL06dNlNpv1xRdfGPebJI0fP16SdP/99+v+++83li9YsEC1atWyuK9y8/3332vPnj165JFH9MMPP9ywNq999vPzsxiV88orr8jLyytP/cly+fJlPfLII5o8ebIkqV+/fnrhhRcUGhqq/v37G//feTm2K1eurAULFli0X6FCBb377ru6ePGi8XwiXZt8NiIiQlWqVJEktW7dWk8++aRCQ0P16quvSpLeeustVatWTevXrzeOz379+qlv376aPXt2gQQKt+q54Hq5Hc+//fabzp8/r7lz56pHjx7G8uvvR3u5uLho+/btFo/zp556St26ddPKlSs1Y8aMm7aR9drw4IMPGsfY+fPnrQKFDz74QLGxsfriiy9Ut25dSVJgYKAqV66ssLAwDRo0SNWqVbM4Tv/++2998803OR67eW0vJzd7HrkZW7fv2LGjxo0bpxkzZqhOnTp65JFHLNbPnz9fO3bs0IcffqhatWrZte+OHTuqZs2akqRWrVqpS5cu+uOPP4xAYdasWXJxcdHatWtVsWJFY5vHHntMCxcu1DvvvGPXc1pBe+6557Rt2zZNnTpVjRs31sKFC3X69GmtWbPG4rgF7iSc8gCgwCQnJ0uSypUrZ9N2fn5+RpggSdWrV1eHDh20a9cuZWZmymw2KyIiQu3bt5fZbFZcXJzx4+/vr6SkJP3+++8WbWZ9u5v1IeZGMjMzLdqMi4tTamqqVd2lS5fk7OxshAS5yWudvbZs2SJPT095eHhY9L158+aSZHV6xOXLl61uZ9ab6+yyf+BKSEhQUlKSmjRpoj/++CNP/crIyDDaj4qK0jfffCMvLy+LD2K5yerjsWPH9NFHH6l06dIWx0b2viUnJysuLk4PPfSQUlNTFR0dbVc/zp49q48//lgvvfSS1TEcEREhV1fXHL+ty+3/+eDBg9qyZYvGjh2rEiVyfrnt1auXYmJijGHuW7duVYUKFSy+sc9q68KFC+rbt6/FMd22bVt5eHgYoy7i4uL0yy+/6PHHH7cIE27Uz7wym82aO3euunTpooYNG960Pq99LihPP/208XvWSKaMjAxFRkYay205tpOTk3XhwgVFRUVp06ZNuu+++4wPNFk6duxohAmS5Ovrq4YNG+r777+XJMXHx+unn35St27djOM1Li5OFy9elL+/v44fP14glwK8Vc8F2d3oeL506ZIkWd0/tkhNTbXq0/WnMpUsWdL4UHb16lXFx8frypUratCgQZ6fn/L62rBlyxY1adJEzs7OFn1q2bKlMjMzczwt71a0l5fnkRvJ7/bPP/+8evfurdGjR+vo0aPG8i+//FJLlizRm2++qSZNmti978TERMXFxSk2NlYffvihSpYsqaZNm0qSzp07p0OHDumxxx6zOLbuv/9+tWzZ0nic2Sqvr/nStQAq6zF7s8eIdG3U2dtvv62UlBQNHjxYn3zyiYYMGSIfH5989RUoDhihAKDAlC9fXtL/3lzmVZ06dayW1a1b13iDWaJECSUmJmrt2rW5fst//XnoFy9elIODg8qUKXPT/UdHR1t9gMtJo0aNtG7dOq1Zs0bt2rWTg4ODUlJS8l1nrxMnTujYsWO59v3ChQsWf3/22Wc5zjlRo0YNi7937Nih999/X4cOHbI4/zqvH0ijoqIs+lS3bl0tXrw4T9t//vnnmjZtmiSpUqVKWr58uUX//vrrL82fP18//fSTEWBluf4bMFv7ERwcrMqVKysgIEBbt261WPf333/L3d1dpUrl/WVzzpw5euihh9SuXbtcr2ri5uamNm3aaP369fLx8dH69ev1f//3f1Zvvk+fPi1Jcnd3t2rDw8ND//3vfyVdmxRVknGqUEH66quvdPToUc2fP9/q29yc5LXPBaFEiRJW35Rm7Tf73Ae2HNtTpkxReHi4JMnHx0chISFWdbk9d23evFnStePGbDZrwYIFuX5bf+HCBYtQIj9u1XNBdjc6nhs0aCAHBwctXLhQrq6uxikP2ecGuJmFCxdazRUhyTh1JMsXX3yh5cuXKyYmRhkZGcbyrG+5b+bixYuS/vd6lZsTJ07o8OHDud6n17/m3Ex+28vL88iN2LP9+fPnlZycrKFDhyolJUV//PGHNm3aJMn6mMrvvh977DHjd0dHR02ZMkW+vr6Sbvwc4unpqV27diklJcU4rTGv8vqaL0m7du0yakuWLCkvLy+NGzdO/v7+uW5Tu3ZtDR8+XLNmzVL9+vX10ksv2dQ/oLghUABQYMqXL6/KlSvrr7/+KtB2s96U9urVy+LNR3bXTxB36tQpVatWLU8fYmvUqKHp06dbLNuyZYtVeDF27FidPXtWr7/+ul5//fVc28trnb2uXr2q+vXrG0Orr5f1pj5Lhw4drL5hnz9/vnFZMuna5FEvvviiHn74Yb3++uuqVKmSHBwctH79+jx9iJRkMflWXFycVq5cqf79++uLL75QpUqVbrht+/btVadOHV24cEFr1qzRmDFj9Mknn6hmzZpKTEzUM888o/Lly2vkyJGqXbu2nJyc9Pvvv2v27NlWH15s6cexY8f0xRdf6N1335WDg0OebueN7Nq1Sz/++GOeTnN5/PHHNWHCBPXv31+//vqr3nrrLavJKAtb1mR4jz/+eI5v7osDW4/tF198UX369NHff/+tsLAwjR07Vh988IFNoVLWMTlo0CCrYeNZCmL2/lvxXJDdzY7nGjVqaMaMGXrrrbesnqPzOnlnQECAunbtarEs6xSWLBs2bNDEiRPVsWNHBQUF6Z577lHJkiW1dOlSI0y7mayA6UbhiXTtPm3VqpWef/75HNdnnbaQV/lpz5bnkZzYs/0333yjnTt3as6cOVq4cKEuXryoixcvqmvXrqpVq5YWL16snj17Wh1btu773Xff1b333qvLly/rp59+0ptvviknJyerSUcLUl5f8yWpYcOGGj16tKRrIyZCQ0M1fPjwm74e7t6929gmPj7+pq99QHFGoACgQLVr105r165VVFRUjlcryMmJEyeslh0/flxlypQxzn0uV66crl69apxXeSNXrlzRn3/+mesb+OuVLVvWqt1Dhw5Z1bm6umrWrFnq2bOnGjdurMDAQO3atctqdvK81tmrdu3a+vPPP9WiRYs8BSdVq1a1up0rVqyw+BCxdetWOTk5KSwszOJ8z/Xr1+e5Xy4uLhb7adq0qR555BF9/vnnN53xvUqVKsa3tZ07d1bz5s21evVqvfzyy/r5558VHx+vRYsW6eGHHza2ye0KALb0Y86cObr//vvVvXv3HNuqXbu2fvvtN2VkZNw0cDCbzZozZ446deqkRo0a3bBWunbevZOTk8aMGaMmTZqodu3aVoFC1ukLMTExVt+sxcTEGOuzvqXPy1U1bPHJJ58oLi5OI0aMyPM2ee1zQbh69apiY2Mtwo6YmBhJ//vgaOuxXb9+fWOkh5eXl55++mnt3r1bbdq0MWpye+7K2mfW/4eDg0Oenrvy61Y8F2TJ6/Hcq1cv/fPPP1q0aJFx3vvLL7+c59tQp04dqz5d/83z1q1bVatWLS1atMjidgYHB+d5PwcPHlSpUqVuOoFj7dq1lZKSUmD/b7a2Z+vzSEFun5KSohkzZqhLly7q2bOnGjRooP/7v/9T7dq19c4778hsNmvTpk2aMWNGjve9Lftu3LixMbqkXbt2Onr0qJYuXao+ffpYPIdcLzo6Wq6urjaPTpDy/povXXs9z15bu3Zt9e3bV7/++muuc16sXr1au3fv1pgxY7R06VJNnTpV77//vs39BIoL5lAAUKCef/55lS1bVpMnT87xzenff/+tFStWWCyLioqymAPhn3/+0bZt29SqVSuVLFlSJUuWVJcuXbR169YcPyhdP1R09+7dSkpKsnlyyLyYOnWqHBwc9NZbb6lly5aqV6+eXXX26Natm86ePatPP/3Ual1aWlq+TrMoWbKkTCaTxbnLJ0+etLrEnS2yzlm+/vJ1N5OUlKSMjAxju6zTALJPgpienq5PPvnErn7s27dP27Zt0/jx43P9MNa5c2ddvHhRq1atslp3/aSM4eHhOnz4sMaOHZunfpUqVUq9e/fW4cOH9fjjj+dY06BBA91zzz1as2aNRf+///57HTt2zJhQ0M3NTQ8//LDWr19vDBfOrZ95denSJS1ZskQDBgyw6Vu2vPa5oGT/vzGbzVq1apUcHBwshivn99jOGiaffYi9dO0yptnnQNi/f79+++034+oB99xzj5o2baq1a9fq3LlzVu3aOmw+N7fiuSBLXo/n33//XQsXLtS4cePUrVs3tWzZMk9z2NiiZMmSkiyP5d9++0379u3L0/bp6enavn27mjdvftO5frp166aoqKgcJx9NTEzM0/n09rRn6/PI9ezZ/r333lN8fLwmTZok6droCTc3Nz3wwAMqXbq0ypQpo0mTJmnr1q053h579p2WlmY8zipXrixvb299+eWXxqUppWuB6fXh3u2SNeootzkhYmNjjas8vPDCC5owYYK2b9+uL7/88jb2Eri9GKEAoEDVrl1bs2fP1pgxY9S9e3f17t1b9evXV3p6uqKiorRlyxaroYz169dXUFCQxWUjJVl8Gzpu3Djt2bNHTz31lJ588knVq1dPCQkJ+v333xUZGamff/5Z0rU3Mu+8844cHR2VlpamDRs2GG0kJSUpMzNT3377rTp27GjzbVu3bp2++eYbffTRR6pQoYLddbnJzMzUzp07LZZlfXuyf/9+Va1aVXXq1FHv3r21efNmvf7669qzZ48aN26szMxMRUdHa8uWLVq2bJnNE0G1adNGH3zwgZ5//nn17NlTFy5c0CeffKLatWvr8OHDeWrj/Pnzxv1+8eJFrV27VqVKlbrhB8jDhw/rnXfeUfPmzeXm5qZz585p/fr1unr1qnHNcD8/P7m4uGjixInq37+/TCaTNmzYkOsH5bz2Y9euXWrVqtUNvzn8v//7P3355ZeaOXOm9u/fryZNmig1NVWRkZHq27evxfG0a9cuPfXUU/Lw8MjL3SVJGjVqlIKCguTi4pLjegcHB40fP16vvvqqnnnmGfXo0cO4BGONGjUsrjwxefJk9e3bV4899pgCAgJUs2ZNnTp1St99953F4yGvfv/9d7m6umrw4ME2bWdLn+3l5OSkH374QRMmTJCvr69++OEHfffdd3rhhReMUU55PbY//fRT/fLLL3rwwQdVrlw5HTt2TJ9++qkqVapkTHKYJevbyr59+yo9PV0fffSRKlasaDGs/fXXX1e/fv306KOP6qmnnlKtWrV0/vx57du3T2fOnNFXX31l0ea+ffuMACNrnpATJ05YPCckJSVZjLK4Fc8FWfJyPKempmrcuHFq2rSpBgwYkK/95EXbtm0VERGhYcOGqW3btjp58qTWrFmjevXq3TQ0+fPPP7V48WKdOXNGbdq0sXgsZE3o+O2336pnz5669957FRQUpO3bt+uFF17QY489pgcffFCpqak6cuSItm7dqm3btt30cqbZ2dpefp5Hssvv9seOHdOHH36oMWPG5Ho6g3TtCjVt2rTRf/7zH3399dcWx6Mt+/7222/l6uqq9PR0/fTTT/r1118tjqFXXnlFgwcPVkBAgJ544gnjspEVKlTQ8OHDbbpt+REXF2c89v7991+FhoaqQoUKatasmY4fP25RazabNWnSJJUuXdqYCygwMFARERF666231KJFC7vnSwGKIgIFAAWuQ4cO+uqrrxQWFqZt27Zp9erVcnR0NM5pz35taEl6+OGH1ahRIy1evFinT59WvXr1NHPmTIvLQN17771at26dFi9erG+++UarV69WxYoVVa9ePeNyeJI0e/ZsnTlzRpJyva73jBkzbA4UTpw4oRkzZmjw4MEWw+3zW3cjly9fzvXD2+zZs5WWlqYRI0aoRIkSWrx4sT788ENt2LBB33zzjcqUKaOaNWuqf//++TrXvUWLFnrrrbcUGhqqGTNmqGbNmho/frxOnTqV50AhOjpar7zyiiTJ2dlZ9erV08SJE2/4gcbV1VVOTk5asWKFEhISVLFiRTVo0ECzZs0yrijg6uqqJUuW6J133tH8+fPl7OysXr16qUWLFgoKCsp3P0wmk8aNG3fD21SyZEmFhobq/fff19dff62IiAhVrFhRjRs3tjpHvHTp0ja/0XV0dLzph5M+ffqodOnSCg0N1ezZs1W2bFl17NhRL7/8ssV14O+//359+umnWrBggVavXq3Lly+revXq6tatm019yu6FF1646SR29vTZXiVLltSyZcs0bdo0vfvuuypXrpyGDx+uYcOGGTV5Pbbd3d21YcMGfffdd0pLS1OlSpXUo0cPDR061Oo+yJpAc8WKFbpw4YJ8fX01ZcoUVa5c2aipV6+e1q9fr0WLFumLL75QfHy88W1v9v5luf7cbunaZSE3btxosSz7pU1vxXNBlrwczzNnztTFixe1YsWKW3p1mz59+uj8+fNau3atdu3apXr16undd9/Vli1bjFA5N998840iIiIkKdcJfmfOnClvb2/de++9KlOmjFauXKmlS5dqy5Yt+vLLL1W+fHnVrVtXI0aMsDkstrW9/DyPFMT2b775purWrZunYGjKlCnq0aOHQkJCLPZly76zLhfs4OCg6tWra9iwYXrhhReM9S1bttSyZcsUHBys4OBglSpVSg8//LBefvnlm16ysiDs37/feD12dXXVgw8+qHfeeUdVqlSxChRWrlypn3/+WQsXLrR4Pn/rrbfUs2dPTZkyRSEhIbe8z8DtZjLndwwkABSArHOTp06dWiDttW/fXsOHD891Qqc9e/bo1Vdf1fbt2wtkf7db//791bRpU5vOZQfuZBMnTtTWrVsVFRV12/Z58uRJdejQQa+88kqOYRaKnoULF+rnn3/WypUrc61p3769Zs6cqWbNmt3GngFA8cYcCgAAAAAAwGac8gDgjtKxY8cbXobt3nvvzdf8CUWFj49PgVxmDgDuJl5eXje95GfHjh1177333qYeAcCdgUABwB0la1bq3Hh6et60pijLmhMAAJB3nTt3vmlNcX5tAIDCwhwKAAAAAADAZsyhAAAAAAAAbEagAAAAAAAAbMYcCkVcVFSUzGazHBwcCrsrAAAAAIC7QEZGhkwmk/z8/G5YR6BQxJnNZjHNBQAAAADgdsnrZ1AChSIua2SCj49PIfcEAAAAAHA3OHDgQJ7qmEMBAAAAAADYjEABAAAAAADYjEABAAAAAADYjEABAAAA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2WyWyWTSoUOH7NkNAAAAAAAoYuwKFKZMmaIdO3aof//+euihh+Ts7FxQ/QIAAAAAAEWYXYHC7t27NWDAAL3yyisF1R8AAAAAAFAM2DUpY+nSpVWjRo2C6gsAAAAAACgm7AoUevXqpW+//bag+gIAAAAAAIoJm055+P333y3+7tq1q3755RcFBQUpICBAVatWVcmSJa22e/DBB+3rJQAAAAAAKFJsChQef/xxmUwmi2VZl4n88ccfreq5ygMAAAAAAHcmmwKFmTNn3qp+AAAAAACAYsSmQOGxxx67Vf0AAAAAAADFiF2TMj777LOKjIzMdf1PP/2kZ5991p5dAAAAAACAIsiuQOHnn3/W+fPnc10fFxenX375xZ5dAAAAAACAIsiuQEGS1SSN2Z04cULlypWzdxcAAAAAAKCIsWkOBUn64osv9MUXXxh/v//++/r000+t6pKSknT48GG1bt3avh4CAAAAAIAix+ZAITU1VRcvXjT+vnTpkkqUsB7oULZsWQUGBmrYsGH29RAAAAAAABQ5NgcK/fr1U79+/SRJ7du312uvvaYOHToUeMcAAAAAAEDRZXOgkN327dsLqh8AAAAAAKAYsStQyJKcnKzTp08rMTFRZrPZav3DDz9cELsBAAAAAABFhF2BQlxcnKZPn66IiAhlZmZarTebzTKZTDp06JA9u7GyY8cOBQcH66+//tI999yjxx9/XMOGDVPJkiUt6rZv36758+crJiZG1atX15AhQ/T4449b1KSnp2vevHn66quvdOnSJfn5+WnKlCny8PCwqDt27JimT5+uqKgolStXTr1799bo0aPl6OhoUbdu3TotW7ZMp0+flru7u8aMGaN27doV6O0HAAAAAKCw2RUoTJ06VTt27FD//v310EMPydnZuaD6lat9+/bppZdeUo8ePTR27FgdPXpU8+fPV2pqqiZMmGDU/frrrxo+fLieeOIJTZo0ST/99JNee+01lStXTl27djXqpk+frvDwcE2cOFFVqlTRkiVLNHDgQG3atEkVKlSQJCUkJGjAgAGqW7euFi5cqLNnz+rtt99WWlqapk6darS1adMmTZkyRS+88IKaN2+u8PBwDR8+XKtWrVKjRo1u+X0DAAAAAMDtYlegsHv3bg0YMECvvPJKQfXnphYuXChvb2/Nnj1bkvTII4/IbDZr7ty5CgoK0r333ivp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yNfXV+3atVNISIjFKR6SZDabFRISorZt28rX11cBAQHat29fgd9+AAAAAAAKm12BQs+ePbVmzRpFRUUZy0wmkyTp008/1ebNm/V///d/dnXwenv27NHw4cNVr149LV68WJMmTdKff/6pQYMGWY2GaNy4sdauXWvxU7NmTYua0aNHa/fu3Zo2bZpmz56tmJgYDR48WFeuXDFqTpw4oaCgIFWqVElLly7VgAEDFBwcrOXLl1u0FRoaquDgYA0cOFBLly5VpUqVNGjQIE77AAAAAADccey6ysMLL7yg3377Tc8884w8PDxkMpk0c+ZMJSQk6MyZM2rTpo0GDhxYQF29ZtOmTapevbpmzJhhhBdubm4aMGCADh48qIceesiodXZ2VqNGjXJtKyoqSrt27VJYWJj8/f0lSe7u7urevbsiIiLUvXt3SVJYWJhcXV01d+5cOTo6qkWLFoqLi9OSJUvUv39/OTo66vLly1q6dKlxZQtJatKkibp27aqwsDBNmzatQO8HAAAAAAAKk10jFBwdHbVs2TLNmDFDtWrVkoeHh9LT0+Xl5aW3335bS5YsUcmSJQuqr5KkK1euqFy5ckaYIEkVKlSQJKtTEG5m586dcnZ2VqtWrYxlHh4e8vb21s6dOy3qOnToIEdHR2NZ9+7dlZiYaIzO2Lt3r5KTk9WtWzejxtHRUZ06dbJoCwAAAACAO4FdIxSka6c49O7dW7179y6I/txUnz59tGHDBq1atUq9evVSfHy85s6dqwceeECNGze2qP3555/VqFEjZWZmqmHDhho1apQefvhhY310dLTc3d0twgnpWqiQNTdESkqK/vnnH3l4eFjVmEwmRUdHq1mzZkb99XWenp5asWKF0tLSVLp06QK7HwAAAAAAKEx2BwqSlJmZqd9//10nT56UJNWsWVMPPvhggY9OkKSHHnpIixYt0rhx4/Tmm29Kkry9vbVs2TKL/T388MPq3bu36tatq3PnziksLEzPPfecVq5cKT8/P0lSYmKiMbohOxcXFx08eFDStUkbpWunT2Tn6OioMmXKKCEhwWjL0dFRTk5OFnXOzs4ym81KSEjId6BgNpuVkpKSr20BAACKu+yjUHlfBAC3ntlstvriPSd2Bwqff/655s6dqwsXLhhP9iaTSW5ubhozZoyeeOIJe3dhYe/evXrllVf01FNPqW3btoqPj9d7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LPM8aN/xg9zx2OJ14k55ncDtM3HixByfI3r37m31mIqKitKzzz5rPF7HjRunCxcu5Np2RkaGWrVqpXnz5lmtGz16tJ544glJOR9LS5cula+vr8VjaPny5Xr88cfVpEkTtWjRQkOHDlVMTIxFuwsWLFCHDh3k4+OjZs2aadiwYYqNjTXWHzt2TGPGjFGbNm3UsGFDde/eXcuXL7c4XSzr8bxlyxaLtr/99lurft7sMQ37EShcp127dkpPT9fu3bslSUePHtXhw4fVvXt3q9qDBw/queeeU7ly5bRgwQKNHz9eO3bs0ODBg5WZmSlJatiwod59913NmDFD33//fY77fPXVV3X+/Hm99957cnJysqm///zzj5555hldvHhR7777rt544w39/vvveuaZZ5ScnHzDbUeMGKEPP/xQjz/+uEJCQvTKK68oJSUlz/ueOnWq1q5dq7Vr11oN1UxPT9dzzz2n7777TqNHj9b7778vT09PDR06VIcPH5YkvfTSS8b2L774oiQZf69du1Zt27a16b5wcXHRl19+afGE89lnn8nFxeWm286aNUsmk8mm/V2PYyf3Y8fJyUnvvfeezp07p0mTJuVY8/3332vmzJl699135evrm2tbH374oc6dO5fjurFjx2rt2rWaP3++rly5ohdffFGpqamSpMzMTA0ePFg7duzQ+PHjtWDBApUtW1bPPfecDh48KKngj8n8KOzjWOJY5nkQtwqPLV4nCgKPc+QkKipK/fv3V4UKFTRv3jz95z//0YEDB/TSSy/luo2Dg4Mee+wxq+MpPj5e27ZtMwKF661bt07BwcGaO3eumjZtaiw/c+aMnnnmGb333nuaPn26rl69qsDAQIsg9L777tOECRP0wQcf6K233tK5c+c0evRoY/25c+fk7u6u119/XSEhIXrqqae0ePFivffeezbfJ3l5TMN+pQq7A0VNmTJl1L59e23atElt27bV119/LT8/P9WqVcuqdsmSJapUqZKWLFkiBwcHSVK1atUUFBSk77//3kh/O3furLFjx2rMmDEW3yJI0vz587Vr1y6tXbtWbm5uNvf3ww8/1JUrV7R8+XJVrFhRkuTt7a0ePXroiy++UP/+/XPcbvfu3fruu+80Z84ci9Qzt29Jssv6ZsXLy0uNGjWSJJUsWdKiZuPGjfrzzz+1YcMG1atXT5L0yCOP6MSJE3rvvfe0YMEC1a5d2xjiGR0dLUlGe/nRqFEjHT16VJGRkWrVqpWSk5MVERGhxx57TKtWrcp1u127dunnn3/Wo48+aldiybFz42PHzc1NISEhCgwM1IIFCzRq1Chj3Z9//qnRo0dr3Lhx6ty5c65txMXFKSQkRI8//rg+/fRTq/V16tQxjqHMzEy9+OKLOn36tDw9PfXdd99p//79WrZsmR555BFJkr+/vzp37qylS5dq4cKFBX5M5kdhH8cSxzLPg3xzc6vw2OJ1oiDwOEdO5syZowYNGmjRokVGaFS/fn317NlT33//vdq0aZPjdk8++aSWLVumH374wajZuHGjSpQokeNjdtu2bZo2bZqmTZumjh07WqzLHgZmZmaqVatWatGihbZu3aqAgABJUvfu3WU2m5WZmamLFy+qTp062rFjh7FdixYt1KJFC0mS2WxWkyZNlJaWpo8//ljDhw+36T7Jy2Ma9mOEQg569uypbdu2KS0tTeHh4erRo0eOdb/++qs6dOhgvNBL1w5SZ2dn/fe//7WoHTRokDw8PDR06FAjNf/iiy/0/vvva+TIkapbt26O+7h69aquXLli/JjNZqs+NGvWzHihlyRPT0/df//9Vn3ILjIyUmXKlMn1tt3IpUuXJOmG33Ts3r1b9evXV926dS3637JlSx04cMDmfZrNZl25csX4ViYnJpNJffr00WeffSbp2jDSBg0a3PC81KtXr2rWrFl65plnVLNmTZv7dT2OnRtzd3fXyJEj9d577+nLL7+UdC2JHjp0qDw9PfXcc8/dcPtFixapbt26ue476zZfuHBBGzZsUJUqVYw36r/++qvKly9vvKBI15L5Tp063fD25ibrmMz+c6O6Gx272RWF41jiWL4ZngeRXzy2bozXiZvjcX53utGxlJqaqr1796pr167KzMw0aurWratq1ard8DWnTp06atq0qdavX28s+/zzz9WlSxeVL1/eovbXX3/VmDFj1L59ez355JNWbe3bt0/PPfecmjVrpgceeEANGzZUSkqKjh8/blH3xRdf6MEHH5S/v7/Cw8M1bNgwY93ly5cVHBysTp06ycfHRw8++KDmzZunf//913jtzXL9c9j1V9Ep6Mc0csYIhRz4+/vLwcFBCxYs0MmTJ9WtW7cc6xITE3XPPfdYLb/nnnuUkJBgsWzPnj36/fffjeRQkqZMmaKGDRtq5cqVevLJJ+Xo6GjVVqtWrayW1ahRw6IP3t7eeepDdvHx8apUqVK+hr39+++/kqRKlSrlWnPx4kX98ccfevDBB63WXf8tXl58//33RlsVK1ZUy5YtNXHiRFWpUsWirk+fPurWrZvi4+P12Wef6ZlnnrEYZnW9zz//XGfOnNELL7ygjz76yOZ+XY9j58bS09P10UcfqWHDhpo8ebKka2/+vL29dfDgQe3Zs0fNmjXLcduYmBh9+umnWr58udWb3ixjxowxfnd2dtbcuXON+ya3+/zee++94e3NTfZjMq91Nzp2syvs41jiWL4ZngeRXzy2bozXieLzOoHb56+//srxWMp6fCYmJiozM1MzZ87UzJkzrer++eefG7b/1FNPaeLEiYqLi9O5c+f0xx9/5DjnyeTJk+Xj46MdO3bor7/+0n333WesO336tAYNGqQGDRrojTfeUOXKleXg4KChQ4ca87dkadeundatW6dTp05p8+bNFs8z7777rtatW6dhw4apQYMGqlChgrZt26b3339fly9fVrly5Yza7I/nnBT0Yxo5I1DIgYODgzp37qwPP/xQLVq00L333ptjnYuLS44TnVy4cMHiPLb09HS9/vrrCggI0Pjx4/X000/rzz//1EsvvaT+/furW7duCgkJyXEYz4cffmiRDn744YeKiorKUx9y+0ZCuvaC9e+//8psNtv8gn/kyBFVqFBBlStXzrXGxcVFXl5eeuutt2xqOzdNmjTRq6++KrPZrBMnTuidd97R5MmTFRoaalFXvXp1NWnSRHPmzNHx48fVtWtXrVmzJsc209LStGDBAr344ot5Ou8wLzh2biwkJESXLl3SZ599po8++kjBwcGqV6+ePvzwQ82aNUvTpk3Thg0bcnzjO3v2bPn7+6tp06bas2dPju2PHz9ezZs3V3p6unbu3KkXX3xRK1eulJ+fX6639/z58/n6/886JrN79tlnc6272bGbXWEfxxLH8s3wPIj84rF1Y7xOFJ/XCdw+tWvX1ty5cy2WjR8/3vi9QoUKMplMGjp0qNVpCJLk6up6w/Y7d+6s//znP/rqq6908uRJ1a5d22JuhCzdu3fXO++8o6CgIL322mtas2aNSpS4NuD9hx9+UEpKihYtWiRnZ2dJ10ZV5PTB3dXVVa6urvL19VXlypU1aNAg7dixQ25ubtqyZYsC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goODcfr0aVy+fFmjOiwtLZGQkIDIyEgkJiaiuLgYRkZG6NevHxYuXNjoMVcXFhaG8PBwhIaGolWrVpg1axZWrFihVuarr75Cz549ERMTg+3btwMATExM4OTkBGdnZ6Gcp6cnbty4AYVCgZiYGJiZmcHZ2RnTpk1DUlISoqOj8fz5c5iYmMDLywtff/21xnEOHz4c3377Lfbs2YPNmzeje/fuWLZsGfLz87VOKACATCaDgYEB9uzZg61bt0IsFsPFxQXLly8XJrlUUQ1z6N27Nzp16qS2/uzZs8L26jS9ZtOmTUNFRQWioqIQEhICKysr7Nixo84JOomIqGUQVb3rWZ2IiIiI3lJERAQiIyNx4cIFtcdYEhERUfPjHApEREREREREpDUOeSAiIqIm9+zZswbnbnifeiRUVFQ0OPGkWCxG27ZtmygiIiKi5seEAhERETW5vXv3IjIyst4yb/NkhHfl3r17GDduXL1lFi1aBD8/vyaKiIiIqPlxDgUiIiJqcrm5ucjNza23jL29PVq3bt1EEdWvrKwM6enp9Zbp0aMHn3pAREQtChMKRERERERERKQ1TspIRERERERERFpjQoGIiIiIiIiItMaEAhERERERERFpjQkFIiIiIiIiItIaEwpEREREREREpDUmFIiIiIiIiIhIa0woEBEREREREZHWmFAgIiIiIiIiIq39H7wDHfb/lyTNAAAAAElFTkSuQmCC"/>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=69664800">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Тепловая карта  зависимости этажности дома от наличия разных типов лифтов (для домов до 25 этажей)</p>
 </div>
 </div>
 </div>
@@ -9790,7 +9181,387 @@ memory usage: 205.5 KB
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=1bb53db5">
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=9ba133de">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=9ba133de">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Unnamed: 0</th>
+<th>ID_announcement</th>
+<th>subway</th>
+<th>adress</th>
+<th>square_meter</th>
+<th>parking_place</th>
+<th>price_per_month</th>
+<th>phone_number</th>
+<th>description</th>
+<th>recondition</th>
+<th>m2_room</th>
+<th>balcony</th>
+<th>windows</th>
+<th>bathroom</th>
+<th>children_pets_allowed</th>
+<th>extra</th>
+<th>residential complex</th>
+<th>serial_house</th>
+<th>height</th>
+<th>lift</th>
+<th>garbage_chute</th>
+<th>link</th>
+<th>room_layout</th>
+<th>room_count</th>
+<th>number_of_floors</th>
+<th>type_of_house</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>0</td>
+<td>271271157</td>
+<td>м. Смоленская (9 мин пешком)</td>
+<td>Москва, улица Новый Арбат, 27</td>
+<td>200.0</td>
+<td>подземная</td>
+<td>500000</td>
+<td>+7(916)636-92-31</td>
+<td>Без комиссии для нанимателя! Бонус коллегам 12...</td>
+<td>Дизайнерский</td>
+<td>не указано</td>
+<td>не указано</td>
+<td>не указано</td>
+<td>не указано</td>
+<td>Можно с детьми, Можно с животными</td>
+<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
+<td>Новый Арбат, 2010</td>
+<td>не указано</td>
+<td>3.00</td>
+<td>Пасс (4), Груз (1)</td>
+<td>Да</td>
+<td>https://www.cian.ru/rent/flat/271271157</td>
+<td></td>
+<td>4</td>
+<td>5</td>
+<td>Монолитный</td>
+</tr>
+<tr>
+<th>1</th>
+<td>1</td>
+<td>271634126</td>
+<td>м. Смоленская (8 мин пешком)</td>
+<td>Москва, улица Новый Арбат, 27</td>
+<td>198.0</td>
+<td>подземная</td>
+<td>500000</td>
+<td>+7(985)060-85-90</td>
+<td>Лот 93107. Елена Анисимова.\n\nБонус агенту 50...</td>
+<td>Дизайнерский</td>
+<td>25 25 20 25</td>
+<td>не указано</td>
+<td>На улицу и двор</td>
+<td>Совмещенный (2), Раздельный (1)</td>
+<td>Можно с детьми</td>
+<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
+<td>Новый Арбат</td>
+<td>не указано</td>
+<td>3.50</td>
+<td>Пасс (1), Груз (1)</td>
+<td>Нет</td>
+<td>https://www.cian.ru/rent/flat/271634126</td>
+<td></td>
+<td>4</td>
+<td>5</td>
+<td>Монолитно-кирпичный</td>
+</tr>
+<tr>
+<th>2</th>
+<td>2</td>
+<td>271173086</td>
+<td>м. Смоленская (7 мин пешком)</td>
+<td>Москва, улица Новый Арбат, 27</td>
+<td>200.0</td>
+<td>подземная</td>
+<td>500000</td>
+<td>+7(967)208-65-36,+7(909)926-93-84</td>
+<td>ID 36380:  Шикарная 4-х км. квартира в ЖК "Нов...</td>
+<td>Евроремонт</td>
+<td>не указано</td>
+<td>не указано</td>
+<td>На улицу и двор</td>
+<td>Совмещенный (3)</td>
+<td>Можно с детьми</td>
+<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
+<td>Новый Арбат</td>
+<td>не указано</td>
+<td>3.20</td>
+<td>Пасс (1)</td>
+<td>не указано</td>
+<td>https://www.cian.ru/rent/flat/271173086</td>
+<td>Обаварианта</td>
+<td>4</td>
+<td>5</td>
+<td>не указано</td>
+</tr>
+<tr>
+<th>3</th>
+<td>3</td>
+<td>272197456</td>
+<td>м. Смоленская (3 мин пешком)</td>
+<td>Москва, переулок Плотников, 21С1</td>
+<td>170.0</td>
+<td>подземная</td>
+<td>400000</td>
+<td>+7(966)034-23-40,+7(909)926-93-84</td>
+<td>ID 31618:  Эксклюзивное предложение. Современн...</td>
+<td>Евроремонт</td>
+<td>14-42-20-19</td>
+<td>не указано</td>
+<td>На улицу и двор</td>
+<td>Совмещенный (3)</td>
+<td>Можно с животными</td>
+<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
+<td>не указано</td>
+<td>не указано</td>
+<td>3.20</td>
+<td>Пасс (1)</td>
+<td>не указано</td>
+<td>https://www.cian.ru/rent/flat/272197456</td>
+<td>Обаварианта</td>
+<td>4</td>
+<td>5</td>
+<td>не указано</td>
+</tr>
+<tr>
+<th>4</th>
+<td>4</td>
+<td>273614615</td>
+<td>м. Арбатская (7 мин пешком)</td>
+<td>Москва, улица Новый Арбат, 15</td>
+<td>58.0</td>
+<td>NaN</td>
+<td>225000</td>
+<td>+7(985)243-28-60</td>
+<td>Лот 111542. Татьяна Лучкина.\n\nБонус агенту 5...</td>
+<td>Евроремонт</td>
+<td>20 18</td>
+<td>не указано</td>
+<td>На улицу и двор</td>
+<td>Совмещенный (2)</td>
+<td>не указано</td>
+<td>Мебель в комнатах, Мебель на кухне, Ванна, Душ...</td>
+<td>The Book</td>
+<td>не указано</td>
+<td>3.90</td>
+<td>Пасс (1), Груз (1)</td>
+<td>Да</td>
+<td>https://www.cian.ru/rent/flat/273614615</td>
+<td></td>
+<td>2</td>
+<td>12</td>
+<td>Панельный</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>23363</th>
+<td>23363</td>
+<td>215565511</td>
+<td>м. Говорово (8 мин пешком)</td>
+<td>Москва, Боровское шоссе, 2к7, ш. Боровское (3 ...</td>
+<td>35.0</td>
+<td>NaN</td>
+<td>42000</td>
+<td>+7(915)438-34-01</td>
+<td>Сдаётся светлая теплая квартира (студия) с бал...</td>
+<td>Евроремонт</td>
+<td>не указано</td>
+<td>Балкон (1)</td>
+<td>не указано</td>
+<td>Совмещенный (1)</td>
+<td>не указано</td>
+<td>Мебель в комнатах, Мебель на кухне, Ванна, Сти...</td>
+<td>Мещерский лес</td>
+<td>не указано</td>
+<td>2.64</td>
+<td>Пасс (1), Груз (1)</td>
+<td>не указано</td>
+<td>https://www.cian.ru/rent/flat/215565511</td>
+<td>не указано</td>
+<td>2</td>
+<td>10</td>
+<td>не указано</td>
+</tr>
+<tr>
+<th>23364</th>
+<td>23364</td>
+<td>274654844</td>
+<td>м. Солнцево (7 мин пешком)</td>
+<td>Москва, Производственная улица, 8к1, ш. Боровс...</td>
+<td>38.7</td>
+<td>NaN</td>
+<td>45000</td>
+<td>+7(915)117-34-02</td>
+<td>Сдам однокомнатную квартиру на длительный срок...</td>
+<td>Евроремонт</td>
+<td>не указано</td>
+<td>Лоджия (1)</td>
+<td>Во двор</td>
+<td>Совмещенный (1)</td>
+<td>не указано</td>
+<td>Мебель в комнатах, Мебель на кухне, Ванна, Сти...</td>
+<td>Лучи</td>
+<td>не указано</td>
+<td>2.64</td>
+<td>Пасс (1), Груз (1)</td>
+<td>не указано</td>
+<td>https://www.cian.ru/rent/flat/274654844</td>
+<td></td>
+<td>1</td>
+<td>5</td>
+<td>Монолитный</td>
+</tr>
+<tr>
+<th>23365</th>
+<td>23365</td>
+<td>268679909</td>
+<td>м. Солнцево (6 мин пешком)</td>
+<td>Москва, Боровский проезд, 11</td>
+<td>43.1</td>
+<td>NaN</td>
+<td>50000</td>
+<td>+7(965)382-51-92</td>
+<td>Рассматриваются квартиранты только славяне и т...</td>
+<td>Дизайнерский</td>
+<td>не указано</td>
+<td>Балкон (1)</td>
+<td>На улицу и двор</td>
+<td>Совмещенный (1)</td>
+<td>Можно с детьми</td>
+<td>Мебель на кухне, Душевая кабина, Стиральная ма...</td>
+<td>не указано</td>
+<td>не указано</td>
+<td>2.64</td>
+<td>NaN</td>
+<td>не указано</td>
+<td>https://www.cian.ru/rent/flat/268679909</td>
+<td>Обаварианта</td>
+<td>2</td>
+<td>5</td>
+<td>Кирпичный</td>
+</tr>
+<tr>
+<th>23366</th>
+<td>23366</td>
+<td>274807525</td>
+<td>м. Солнцево (11 мин пешком)</td>
+<td>Москва, улица Богданова, 6к1, ш. Боровское (3 ...</td>
+<td>52.5</td>
+<td>наземная</td>
+<td>55000</td>
+<td>+7(966)061-19-65</td>
+<td>Двухкомнатная уютная квартира с видом во внутр...</td>
+<td>Евроремонт</td>
+<td>не указано</td>
+<td>Лоджия (1)</td>
+<td>Во двор</td>
+<td>Совмещенный (1), Раздельный (1)</td>
+<td>не указано</td>
+<td>Мебель в комнатах, Мебель на кухне, Ванна, Сти...</td>
+<td>не указано</td>
+<td>не указано</td>
+<td>2.65</td>
+<td>Пасс (3)</td>
+<td>Да</td>
+<td>https://www.cian.ru/rent/flat/274807525</td>
+<td></td>
+<td>2</td>
+<td>8</td>
+<td>Монолитный</td>
+</tr>
+<tr>
+<th>23367</th>
+<td>23367</td>
+<td>274672243</td>
+<td>м. Говорово (10 мин пешком)</td>
+<td>Москва, улица Богданова, 2к1, ш. Боровское (3 ...</td>
+<td>90.0</td>
+<td>NaN</td>
+<td>57000</td>
+<td>+7(962)364-15-33</td>
+<td>Сдается просторная двухкомнатная квартира ВПЕР...</td>
+<td>Косметический</td>
+<td>26,2+15,5-22,0</td>
+<td>Лоджия (1)</td>
+<td>Во двор</td>
+<td>Раздельный (1)</td>
+<td>Можно с детьми, Можно с животными</td>
+<td>Мебель в комнатах, Мебель на кухне, Ванна, Сти...</td>
+<td>не указано</td>
+<td>не указано</td>
+<td>2.64</td>
+<td>Пасс (3)</td>
+<td>Да</td>
+<td>https://www.cian.ru/rent/flat/274672243</td>
+<td>Обаварианта</td>
+<td>2</td>
+<td>6</td>
+<td>Панельный</td>
+</tr>
+</tbody>
+</table>
+<p>23368 rows × 26 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 </main>
 </body>
